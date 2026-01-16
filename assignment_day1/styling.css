@@ -1,0 +1,53 @@
+body {
+font-family: 'Roboto',sans-serif;
+}
+.image_png{
+    width:100px ;
+    margin-top: 20px;
+}
+.main_container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+   
+}
+.bottom{
+    margin-bottom:20px ;
+    color: gray;
+}
+.google_signin_button{
+    display: flex;
+    border-color: gray;
+    border-style: double;
+    border-radius: 10px;
+    width: 250px;
+    margin: 20px 20px;
+    transition: background-color 0.3s ease,transform 0.2s ease, boxshadow 0.2s ease;
+    transition-delay: 0.1s;
+}
+.google_signin_button:hover{
+    background-color: rgba(0, 114, 236, 0.116);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 179, 255, 0.979);
+}
+.signin_button{
+    display: flex;
+    border-color: gray;
+    border-style: double;
+    border-radius: 10px;
+    width: 250px;
+    justify-content: center;
+    margin: 20px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: background-color 0.3s ease,transform 0.2s ease, boxshadow 0.2s ease;
+    transition-delay: 0.1s;
+}
+.signin_button:hover{
+  background-color: rgba(0, 114, 236, 0.116);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 179, 255, 0.979);
+
+}
